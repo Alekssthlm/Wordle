@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <script src="script.js" defer type="module"></script>
+  <title>Wordify - Wordle simulator</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="toolbar">
+      <span class="logo">WORDIFY</span>
+      <button class="menu">MENU</button>
+    </div>
+    <div class="board">
+      <div class="row-1">
+        <div class="cell" id="r1c1"></div>
+        <div class="cell" id="r1c2"></div>
+        <div class="cell" id="r1c3"></div>
+        <div class="cell" id="r1c4"></div>
+        <div class="cell" id="r1c5"></div>
+      </div>
+      <div class="row-2">
+        <div class="cell" id="r2c1"></div>
+        <div class="cell" id="r2c2"></div>
+        <div class="cell" id="r2c3"></div>
+        <div class="cell" id="r2c4"></div>
+        <div class="cell" id="r2c5"></div>
+      </div>
+      <div class="row-3">
+        <div class="cell" id="r3c1"></div>
+        <div class="cell" id="r3c2"></div>
+        <div class="cell" id="r3c3"></div>
+        <div class="cell" id="r3c4"></div>
+        <div class="cell" id="r3c5"></div>
+      </div>
+      <div class="row-4">
+        <div class="cell" id="r4c1"></div>
+        <div class="cell" id="r4c2"></div>
+        <div class="cell" id="r4c3"></div>
+        <div class="cell" id="r4c4"></div>
+        <div class="cell" id="r4c5"></div>
+      </div>
+      <div class="row-5">
+        <div class="cell" id="r5c1"></div>
+        <div class="cell" id="r5c2"></div>
+        <div class="cell" id="r5c3"></div>
+        <div class="cell" id="r5c4"></div>
+        <div class="cell" id="r5c5"></div>
+      </div>
+      <div class="row-6">
+        <div class="cell" id="r6c1"></div>
+        <div class="cell" id="r6c2"></div>
+        <div class="cell" id="r6c3"></div>
+        <div class="cell" id="r6c4"></div>
+        <div class="cell" id="r6c5"></div>
+      </div>
+    </div>
+    <div class="keyboard">
+      <div class="keyboard__row1">
+        <button class="char kb" data-char="Q">Q</button>
+        <button class="char kb" data-char="W">W</button>
+        <button class="char kb" data-char="E">E</button>
+        <button class="char kb" data-char="R">R</button>
+        <button class="char kb" data-char="T">T</button>
+        <button class="char kb" data-char="Y">Y</button>
+        <button class="char kb" data-char="U">U</button>
+        <button class="char kb" data-char="I">I</button>
+        <button class="char kb" data-char="O">O</button>
+        <button class="char kb" data-char="P">P</button>
+      </div>
+      <div class="keyboard__row2">
+        <button class="char kb" data-char="A">A</button>
+        <button class="char kb" data-char="S">S</button>
+        <button class="char kb" data-char="D">D</button>
+        <button class="char kb" data-char="F">F</button>
+        <button class="char kb" data-char="G">G</button>
+        <button class="char kb" data-char="H">H</button>
+        <button class="char kb" data-char="J">J</button>
+        <button class="char kb" data-char="K">K</button>
+        <button class="char kb" data-char="L">L</button>
+      </div>
+      <div class="keyboard__row3">
+        <button class="del kb" data-char="delete">DEL</button>
+        <button class="char kb" data-char="Z">Z</button>
+        <button class="char kb" data-char="X">X</button>
+        <button class="char kb" data-char="C">C</button>
+        <button class="char kb" data-char="V">V</button>
+        <button class="char kb" data-char="B">B</button>
+        <button class="char kb" data-char="N">N</button>
+        <button class="char kb" data-char="M">M</button>
+        <button class="enter kb" data-char="enter">ENTER</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
